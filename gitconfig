@@ -1,0 +1,10 @@
+[user]
+  name = Barry Hoggard
+  email = barry@hoggard.org
+[push]
+  default = current
+[core]
+  excludesfile = ~/.gitignore
+[pager]
+  branch = false
+
