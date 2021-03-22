@@ -18,9 +18,12 @@ call vundle#begin()
 " all plugins go between begin() and end()
 
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'neoclide/coc.nvim'
 Plugin 'preservim/nerdtree'
 Plugin 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
+Plugin'jparise/vim-graphql'        " GraphQL syntaxPlugin 'neoclide/coc.nvim'
+Plugin'leafgarland/typescript-vim' " TypeScript syntax
+Plugin'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+Plugin'pangloss/vim-javascript'    " JavaScript support
 
 call vundle#end()
 
