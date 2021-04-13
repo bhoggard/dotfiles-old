@@ -6,7 +6,7 @@ my dotfiles using Thoughbot's [rcm](https://github.com/thoughtbot/rcm)
 
 Start by cloning this repo with
 
-    git clone git@gitlab.com:bhoggard/dotfiles-rcm.git ~/.dotfiles
+    git clone git@github.com:bhoggard/dotfiles.git ~/.dotfiles
 
 then running
 
