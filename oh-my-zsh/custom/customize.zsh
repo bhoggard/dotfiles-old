@@ -21,3 +21,6 @@ export HOKUSAI_ALWAYS_VERBOSE=True
 
 export EDITOR=vim
 
+alias tf=terraform
+
+alias netshoot='kubectl run tmp-shell-$(whoami) --restart=Never --rm -i --tty --image nicolaka/netshoot -- /bin/bash'
