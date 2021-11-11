@@ -12,6 +12,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 . ~/.secrets
 alias be="bundle exec"
 alias rub="git diff --name-only | xargs bundle exec rubocop -a"
+alias rubs="git diff --staged --name-only | xargs bundle exec rubocop -a"
 
 alias gpc="hokusai production run --tty 'rails c production'"
 alias gsc="hokusai staging run --tty 'rails c staging'"
@@ -32,3 +33,5 @@ alias 'k8p'='aws-iam-authenticator token -i $(kubectl config get-clusters | grep
 
 alias hp='hokusai production'
 alias hs='hokusai staging'
+
+alias grav='cd ~/code/artsy/gravity'
