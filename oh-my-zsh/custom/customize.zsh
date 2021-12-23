@@ -22,7 +22,7 @@ alias sc="hokusai staging run --tty 'bundle exec rails c'"
 
 export HOKUSAI_ALWAYS_VERBOSE=True
 
-export EDITOR=nvim
+export EDITOR=vim
 
 alias tf=terraform
 
